@@ -1,0 +1,47 @@
+header{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(77, 10, 139, 0.452), rgb(26, 26, 27)), url(../../component/foto/—Pngtree—azure\ universe\ planet\ cartoon\ background_941245.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat
+}
+
+.home{
+    display: block;
+    position: relative;
+    top: 150px;
+    padding: 0;
+    margin-left: 20px;
+}
+
+.name{
+    color: aliceblue;
+    text-transform: capitalize;
+    background-color: rgb(119, 31, 201);
+    width: fit-content;
+    padding: 5px;
+    border: 7px solid rgb(118, 50, 128);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.des{
+    color: aliceblue;
+    text-transform: capitalize;
+    font-size: 50px;
+}
+
+
+/* seluler responsiv */
+@media screen and (max-width:360px) {
+    .home{
+        top: 15px;
+    }
+    .name{
+        font-size: 15px;
+    }
+    .des{
+        font-size:10vw;
+    }
+}
